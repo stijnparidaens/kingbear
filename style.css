@@ -914,6 +914,10 @@ p {
 
 @media only screen and (max-width:700px){
 
+
+
+
+
 #container-nav {
   position: absolute;
   width: 100%;
@@ -1047,6 +1051,15 @@ p {
 
 
 @media only screen and (max-width: 420px){
+header{
+  background-image: url("img/home/home-bg-small.jpg");
+  background-size: cover;
+  height: 100vh;
+  width:100%;
+  background-attachment: fixed;
+}
+
+
 
 #container-nav {
   position: absolute;
@@ -1186,6 +1199,15 @@ p {
 
 @media only screen and (max-width: 380px){
 
+header{
+  background-image: url("img/home/home-bg-small.jpg");
+  background-size: cover;
+  height: 100vh;
+  width:100%;
+  background-attachment: fixed;
+}
+
+
 #container-nav {
   position: absolute;
   width: 100%;
@@ -1198,7 +1220,7 @@ p {
   font-size: 0.6em;
   font-family: MontH, sans-serif ;
   padding: 0px;
-  margin-left: -35px;
+  margin-left: -40px;
 }
 
 
@@ -1241,7 +1263,7 @@ p {
     border-radius: 5px;
     padding: 15px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
-    margin-top: 770px
+    margin-top: 790px
   }
 
   .dot-container {
@@ -1323,6 +1345,14 @@ p {
 
 
 @media only screen and (max-width: 325px){
+
+  header{
+  background-image: url("img/home/home-bg-small.jpg");
+  background-size: cover;
+  height: 100vh;
+  width:100%;
+  background-attachment: fixed;
+}
 
 #container-nav {
   position: absolute;
