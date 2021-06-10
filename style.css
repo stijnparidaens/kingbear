@@ -913,11 +913,6 @@ p {
 
 
 @media only screen and (max-width:700px){
-
-
-
-
-
 #container-nav {
   position: absolute;
   width: 100%;
@@ -1057,6 +1052,19 @@ header{
   height: 100vh;
   width:100%;
   background-attachment: fixed;
+}
+
+
+#status {
+    background-image: url(img/preloader/preloader.gif);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 37%;
+    top: 40%;
+    margin-top: -35px;
+    margin-left: -35px;
 }
 
 
@@ -1208,6 +1216,19 @@ header{
 }
 
 
+#status {
+    background-image: url(img/preloader/preloader.gif);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+
+
 #container-nav {
   position: absolute;
   width: 100%;
@@ -1353,6 +1374,20 @@ p {
   width:100%;
   background-attachment: fixed;
 }
+
+
+#status {
+    background-image: url(img/preloader/preloader.gif);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    margin-top: -35px;
+    margin-left: -35px;
+}
+
 
 #container-nav {
   position: absolute;
