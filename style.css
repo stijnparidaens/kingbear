@@ -338,6 +338,7 @@ button{
 
 #VideoTypo {
   box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  border-radius: 7px;
 }
 
 /* =========================================
@@ -349,6 +350,7 @@ button{
 
 #Video {
   box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  border-radius: 7px;
 }
 
 
@@ -427,6 +429,7 @@ ul.office-details li i {
 .social-list li a:hover {
   color: white;
   border-color: transparent;
+  transition-duration: 0.6s;
 }
 
 /*Contact Left*/
@@ -912,7 +915,7 @@ p {
 
 
 
-@media only screen and (max-width:700px){
+@media only screen and (max-width:740px){
 #container-nav {
   position: absolute;
   width: 100%;
@@ -922,10 +925,10 @@ p {
 .nav a {
   color: white;
   text-decoration: none;
-  font-size: 0.6em;
+  font-size: 0.8em;
   font-family: MontH, sans-serif ;
   padding: 0px;
-  margin-left: -35px;
+  margin-left: 0px;
 }
 
 
@@ -937,7 +940,7 @@ p {
 }
 
 #titel {
-  font-size: 3em;
+  font-size: 3.4em;
 }
 
 #about {
@@ -949,30 +952,30 @@ p {
 }
 
 h2{
-  font-size: 2.4em;
+  font-size: 2.6em;
 }
 
 p {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 
 .container {
     background-color: #ffffff;
     width: 15%;
-    min-width: 280px;
+    min-width: 480px;
     position: absolute;
     transform: translate(-50%,-50%);
-    left: 12%;
+    left: 16%;
     top: 38%;
     border-radius: 5px;
     padding: 15px;
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
-    margin-top: 820px
+    margin-top: 770px
   }
 
   .dot-container {
-    width: 250px;
+    width: 450px;
     margin: 10px auto 0 auto;
     display: flex;
     align-items: center;
@@ -980,15 +983,15 @@ p {
   }
 
   #typo {
-    margin-top: 400px;
+    margin-top: 450px;
     margin-left: 20px;
     text-align: center;
   }
 
 
   #VideoTypo {
-    width: 280px;
-    height: 150px;
+    width: 450px;
+    height: 230px;
     margin-top: 100px;
   }
 
@@ -998,8 +1001,8 @@ p {
   }
 
   #Video {
-    width: 280px;
-    height: 150px;
+    width: 450px;
+    height: 230px;
   }
 
   #contact p {
@@ -1030,9 +1033,9 @@ p {
 }
 
 #map {
-  width: 280px;
-  height: 150px;
-  margin-left: 7%;
+  width: 570px;
+  height: 240px;
+  margin-left: 3%;
   border: 5px solid white;
   border-radius: 10px;
   margin-top: 80px;
