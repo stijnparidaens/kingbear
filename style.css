@@ -274,19 +274,23 @@ body {
     box-shadow: 0 15px 30px rgba(0,0,0,0.3);
     margin-top: 740px
 }
+
 .image-container{
     position: relative;
     width: 100%;
 
 }
+
 img{
     position: relative;
     width: 100%;
     display: none;
 }
+
 .active{
     display: block;
 }
+
 .dot-container{
     width: 500px;
     margin: 20px auto 0 auto;
@@ -294,6 +298,7 @@ img{
     align-items: center;
     justify-content: space-between;
 }
+
 button{
     outline: none;
     cursor: pointer;
@@ -512,6 +517,246 @@ footer {
 /* =========================================
               Media Queries
 ============================================ */
+@media only screen and (max-width: 1540px){
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-family: MontH, sans-serif ;
+  padding: 7px;
+  margin-right: 20px;
+}
+
+#home-txt {
+  width: 100%;
+  margin-top: -225px;
+  margin-left: 40px;
+  display: block;
+}
+
+#titel {
+  font-size: 4.6em;
+}
+
+#about {
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+h2{
+  font-size: 3.2em;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+
+.container{
+    background-color: #ffffff;
+    width: 48%;
+    min-width: 420px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 26%;
+    top: 50%;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    margin-top: 800px
+}
+
+.dot-container{
+    width: 500px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#typo {
+  margin-top: 800px;
+}
+
+#VideoTypo {
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  border-radius: 7px;
+}
+
+#film {
+  margin-top: 100px;
+}
+
+#Video {
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  border-radius: 7px;
+}
+
+#contact p {
+  font-family: MontEL;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+  #contact-right {
+    margin-top: 25px;
+
+  }
+
+  #contact-right h3 {
+    text-align: left;
+  }
+
+  #contact-right p {
+    text-align: left;
+  }
+
+body {
+    background: linear-gradient(-45deg, #e6135c, #f0821a, #2784c6, #75b946);
+    background-size: 100% 1000%;
+    animation: gradient 15s ease infinite;
+}
+
+.office {
+  margin-top: 0px;
+}
+
+#map {
+  height: 450px;
+  width: 1200px;
+  border: 5px solid white;
+  border-radius: 10px;
+  margin-top: 80px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  margin-left: 6%;
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 1300px){
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.3em;
+  font-family: MontH, sans-serif ;
+  padding: 7px;
+  margin-right: 20px;
+}
+
+#home-txt {
+  width: 100%;
+  margin-top: -185px;
+  margin-left: 40px;
+  display: block;
+}
+
+#titel {
+  font-size: 4.4em;
+}
+
+#about {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+h2{
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+
+.container{
+    background-color: #ffffff;
+    width: 48%;
+    min-width: 420px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 26%;
+    top: 50%;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    margin-top: 740px
+}
+
+.dot-container{
+    width: 500px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#typo {
+  margin-top: 800px;
+}
+
+#VideoTypo {
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  border-radius: 7px;
+}
+
+#film {
+  margin-top: 100px;
+}
+
+#Video {
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  border-radius: 7px;
+}
+
+#contact p {
+  font-family: MontEL;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+  #contact-right {
+    margin-top: 25px;
+
+  }
+
+  #contact-right h3 {
+    text-align: left;
+  }
+
+  #contact-right p {
+    text-align: left;
+  }
+
+body {
+    background: linear-gradient(-45deg, #e6135c, #f0821a, #2784c6, #75b946);
+    background-size: 100% 1000%;
+    animation: gradient 15s ease infinite;
+}
+
+.office {
+  margin-top: 0px;
+}
+
+#map {
+  height: 400px;
+  width: 1000px;
+  border: 5px solid white;
+  border-radius: 10px;
+  margin-top: 80px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  margin-left: 6%;
+}
+}
+
 @media only screen and (max-width: 1200px){
   .nav a {
   color: white;
